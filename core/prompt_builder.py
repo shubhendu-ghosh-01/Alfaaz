@@ -8,4 +8,5 @@ class PromptBuilder:
             f"aged {user.age}, with whom the relationship is '{user.relationship}'. "
             f"The Shayri should be based on the recent situation: '{conversation}'. "
             f"Keep it emotionally touching and original."
+            f"return only the shayri. Nothing else."
         )

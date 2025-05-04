@@ -4,7 +4,7 @@ from config import settings
 class GeminiClient:
     def __init__(self, api_key: str = settings.GEMINI_API_KEY):
         self.api_key = api_key
-        self.base_url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent"
+        self.base_url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent"
 
     def generate_text(self, prompt: str) -> str:
         headers = {"Content-Type": "application/json"}

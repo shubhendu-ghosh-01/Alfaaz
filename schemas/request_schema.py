@@ -6,4 +6,4 @@ class ShayriRequest(BaseModel):
     age: int
     relationship: str
     language: str
-    latest_conversation: str
+    latest_conversation: dict
